@@ -3,7 +3,7 @@
 
 class AxisButton {
     public:
-        AxisButton (frc::Joystick *stick, int num, std::string name);
+        AxisButton (frc::Joystick *j, int id, std::string n);
         std::string GetName();
         double GetState();
         bool Held();
